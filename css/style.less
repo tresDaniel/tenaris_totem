@@ -1,0 +1,26 @@
+@heading-color: rgb(255, 123, 123);
+h1{
+	color: @heading-color;
+	font-weight: 300;
+
+	span{
+		font-weight: 600;
+		color: rgb(255, 69, 69);
+	}
+
+	&:hover{
+		color: rgb(200, 0, 0);
+	}
+
+	&:hover span{
+		color: rgb(50, 50, 50);
+	}
+}
+
+body{
+	background-color: @heading-color;
+}
+
+polygon{
+	color: #FFFFFF
+}
